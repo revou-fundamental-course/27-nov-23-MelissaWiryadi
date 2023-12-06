@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 15px;
+}
+.Reset{
+    color: rgb(246, 246, 246);
+    background-color: rgb(232, 70, 70);
+    outline: none;
+    border: 1px rgb(213, 20, 33);
+    width: 100px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 20PX;
+}
+.image{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.Input{
+    border: 5px skyblue;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding:5px
+}
+.Input:focus{
+    background-color: lightblue;
+}
+.Result{
+    border: 5px skyblue;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding:5px
+}
+.Calculationbtn:focus{
+    background-color: lightblue;
+}
+.Calculation{
+    display: flex;
+    justify-content: space-around;
+}
+#Calculationbtn{
+    border: 1px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: skyblue;
+}
+.All{
+    background-color: lemonchiffon;
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
