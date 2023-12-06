@@ -1,9 +1,7 @@
 var hasilHYPO = ""
 var hasil =""
 var hasilAREA=""
-document.getElementById("Result").disabled = true;
-document.getElementById("ResultAREA").disabled = true;
-document.getElementById("ResultHYPO").disabled = true;
+
     function Circumference(){
         let pertama = document.getElementById("Height").value
         let kedua = document.getElementById("width").value

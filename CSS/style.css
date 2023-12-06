@@ -8,8 +8,11 @@ header{
     color: rgb(246, 246, 246);
     background-color: rgb(232, 70, 70);
     outline: none;
-    border: 1px rgb(213, 20, 33);
+    border: 1px;
     width: 100px;
+}
+.Reset:hover{
+    background-color: salmon;
 }
 body {
     display: flex;
@@ -45,7 +48,7 @@ body {
     margin: 10px;
     padding:5px
 }
-.Calculationbtn:focus{
+#Calculationbtn:hover{
     background-color: lightblue;
 }
 .Calculation{
@@ -64,4 +67,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     margin: 15px;
+}
+.All:hover{
+    background-color: peachpuff;
 }
