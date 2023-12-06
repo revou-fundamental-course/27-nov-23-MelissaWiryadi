@@ -42,3 +42,4 @@ var hasilAREA=""
         document.getElementById("ResultAREA").value=hasilAREA
         document.getElementById("ResultHYPO").value=hasilHYPO
     }
+    
