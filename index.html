@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Triangle Calculator</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h3 id="logo">Basic Triangle</h3>
+        <button class="Reset" onclick="Reset()" >Reset</button>
+    </header>
+    <section class="image">
+        <img src="https://www.nicepng.com/png/full/210-2109928_right-triangle-math-angle-trigonometry-pythagoras-right-angle.png" width="20%" height="10%">
+    </section>
+
+        <label for="Height">Height</label>
+        <input id="Height" class="Input" placeholder="Height" type="number">
+        <br>
+        <label for="width">Width</label>
+        <input id="width" class="Input" placeholder="Width" type="number">
+        <br>
+        <label for="Hypotenuse">Hypotenuse</label>
+        <input id="Hypotenuse" class="Input" placeholder="Hypotenuse" type="number">
+        <br>
+
+    <section class="Calculation">
+        <button ID="Calculationbtn" onclick ="Circumference()">Circumference</button>
+        <input for="Circumference" class="Result" id="Result" type="number">
+        <br>
+        <button ID="Calculationbtn" onclick ="Area()">Area</button>
+        <input for="Area" class="Result" id="ResultAREA" type="number">
+        <br>
+        <button ID="Calculationbtn" onclick ="Hypotenuse()">Hypotenuse</button>
+        <input for="Hypotenuse" class="Result" id="ResultHYPO" type="number">
+    </section>
+    <button onclick="All()" class="All">Calculate All</button>
+    
+</body>
+</html>
